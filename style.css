@@ -1,0 +1,77 @@
+#head {
+  width: 880px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  text-align: center;
+  background: #222;
+  font-family: 'Merriweather Sans',   sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+}
+
+button {
+  border: none;
+  background: #222;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 1000;  
+}
+#body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 880px;
+  height: 400px;
+  display: flex;
+  flex-direction: inline-flex;
+  flex-wrap: wrap;
+  background: red;
+
+}
+
+#leftSide {
+  width: 40%;
+  height: 500px;
+  background: url(https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png); 
+  background-size: cover;
+  background-position: center center;
+  font-family: 'Antonio', sans-serif;
+  text-align: left;
+  position: relative;
+  
+ 
+}
+
+#l0Message {
+  position: absolute;
+  top: 320px;
+  left: 150px;
+}
+
+.nameAnakin{
+  font-size: 55px;
+  margin: 0;
+  
+}
+#myname {
+  font-size: 35px;
+}
+
+
+
+#paragraph1 {
+  width: 60%;
+  height: 400px;
+  text-align: justify;
+  background: blue;
+   
+}
+
+#list1 {
+  margin-top: 10px;
+}
